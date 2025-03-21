@@ -11,6 +11,8 @@ import java.util.List;
 @Data
 public class UserRequestDTO {
 
+    private Long id;
+
     private String name;
 
     private Account account;
