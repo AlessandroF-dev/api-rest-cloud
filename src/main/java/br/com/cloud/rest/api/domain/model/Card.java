@@ -9,6 +9,15 @@ import java.math.BigDecimal;
 @Entity(name = "tb_card")
 public class Card {
 
+    public Card() {
+
+    }
+
+    public Card(String number, BigDecimal limit) {
+        this.number = number;
+        this.limit = limit;
+    }
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
