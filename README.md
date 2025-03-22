@@ -3,11 +3,12 @@
 Java RESTful API criada para a Santander Dev Week.
 
 ## Principais Tecnologias
-- **Java 17**: Utilizaremos a versão LTS mais recente do Java para tirar vantagem das últimas inovações que essa linguagem robusta e amplamente utilizada oferece;
-- **Spring Boot 3**: Trabalharemos com a mais nova versão do Spring Boot, que maximiza a produtividade do desenvolvedor por meio de sua poderosa premissa de autoconfiguração;
-- **Spring Data JPA**: Exploraremos como essa ferramenta pode simplificar nossa camada de acesso aos dados, facilitando a integração com bancos de dados SQL;
-- **OpenAPI (Swagger)**: Vamos criar uma documentação de API eficaz e fácil de entender usando a OpenAPI (Swagger), perfeitamente alinhada com a alta produtividade que o Spring Boot oferece;
-- **Railway**: facilita o deploy e monitoramento de nossas soluções na nuvem, além de oferecer diversos bancos de dados como serviço e pipelines de CI/CD.
+- **Java 17**: A versão LTS mais recente do Java, aproveitando as inovações e estabilidade da linguagem.
+- **Spring Boot 3**: A mais nova versão do Spring Boot, que maximiza a produtividade do desenvolvedor por meio da autoconfiguração.
+- **Spring Data JPA**: Simplifica a camada de acesso aos dados, facilitando a integração com bancos de dados SQL.
+- **OpenAPI (Swagger)**: Criação de uma documentação de API eficaz e fácil de entender, alinhada com a produtividade do Spring Boot.
+- **Railway**: Facilita o deploy e monitoramento das soluções na nuvem, além de oferecer diversos bancos de dados como serviço e pipelines de CI/CD.
+- **Testes Unitários com Mockito e JUnit**: Testes unitários são implementados utilizando **Mockito** para mock de dependências e **JUnit** para validação dos comportamentos da aplicação.
 
 ## Diagrama de Classes (Domínio da API)
 
