@@ -9,6 +9,15 @@ import java.math.BigDecimal;
 @Entity(name = "tb_account")
 public class Account {
 
+    public Account() {
+
+    }
+
+    public Account(String agency, String number) {
+        this.agency = agency;
+        this.number = number;
+    }
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -23,4 +32,5 @@ public class Account {
 
     @Column(name = "additional_limit", precision = 13, scale = 2)
     private BigDecimal limit;
+
 }
